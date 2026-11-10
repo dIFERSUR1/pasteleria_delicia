@@ -1,1 +1,5 @@
-
+cd app_web_crm_node_api
+npm install
+copy .env.example .env
+npm run db:init
+npm run dev
